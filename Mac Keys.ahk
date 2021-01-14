@@ -67,6 +67,9 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 ; Mac-style Clear Terminal
 !k::Send ^+k
 
+; Disable Cortana
+<#c::Send ^
+
 ; Desktop rotation ( Spaces )
 ; Ctrl Left & Right remapped to F18 & F19 which switch virtual desktops ( I use Dexpot )
 ;
