@@ -59,6 +59,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 !+]::Send ^{PgDn}
 !t::Send ^t
 !w::Send ^w
+!r::Send ^r
 
 ; For Mac-style select all
 !a::Send ^a
